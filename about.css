@@ -1,0 +1,53 @@
+#navbar-size {
+  padding-block-start: 3vh;
+}
+
+img.logo {
+  height: 30px;
+  width: 30px;
+}
+input.form {
+  margin-inline-start: 40vw;
+}
+input#inp-size {
+  font-size: 15px;
+  width: 18vw;
+}
+body {
+  font-family: Roboto Serif, sans-serif;
+  font-weight: 700;
+}
+
+.h-font {
+  font-family: "Pattaya", sans-serif;
+  background-color: #f2f2f2;
+  color: #f2cc0f;
+  margin-block-start: 2vh;
+}
+img#LaToyaCantrell {
+  border-radius: 8px;
+  display: block;
+  width: 30%;
+  height: 30%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 35%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 25%;
+  }
+}
+.p-div {
+  background-color: #f2cc0f;
+  font-weight: 450;
+  color: #f2f2f2;
+  border: #0d0d0d double;
+  margin-block-end: 3vh;
+}
